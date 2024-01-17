@@ -3,6 +3,7 @@ use ark_ec::msm::VariableBaseMSM as BaselineVariableBaseMSM;
 use ark_ec::AffineCurve;
 use ark_ff::PrimeField;
 use ark_msm::{msm::VariableBaseMSM, utils::generate_msm_inputs};
+use mcl_rust::*;
 
 #[cfg(test)]
 mod msm_test {
